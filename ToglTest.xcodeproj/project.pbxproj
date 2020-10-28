@@ -3,19 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		071B06A3872A2F37EE99F287 /* Pods_ToglTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A71842193BDEFCC1D9767B4 /* Pods_ToglTest.framework */; };
 		C579B78325496AE700471E7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C579B78225496AE700471E7E /* AppDelegate.swift */; };
 		C579B78525496AE700471E7E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C579B78425496AE700471E7E /* SceneDelegate.swift */; };
 		C579B78725496AE700471E7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C579B78625496AE700471E7E /* ViewController.swift */; };
 		C579B78A25496AE700471E7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C579B78825496AE700471E7E /* Main.storyboard */; };
 		C579B78C25496AED00471E7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C579B78B25496AED00471E7E /* Assets.xcassets */; };
 		C579B78F25496AED00471E7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C579B78D25496AED00471E7E /* LaunchScreen.storyboard */; };
+		C579B7982549741400471E7E /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C579B7972549741400471E7E /* DetailVC.swift */; };
+		C579B7CB2549CD6B00471E7E /* PicService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C579B7CA2549CD6B00471E7E /* PicService.swift */; };
+		C579B7CE2549CDFA00471E7E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C579B7CD2549CDFA00471E7E /* Extensions.swift */; };
+		C579B7D12549CE6000471E7E /* PicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C579B7D02549CE6000471E7E /* PicModel.swift */; };
+		C579B7E42549EB4100471E7E /* PicsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C579B7E32549EB4100471E7E /* PicsCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A71842193BDEFCC1D9767B4 /* Pods_ToglTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToglTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7601E0FFA521C8D91CCA4770 /* Pods-ToglTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToglTest.debug.xcconfig"; path = "Target Support Files/Pods-ToglTest/Pods-ToglTest.debug.xcconfig"; sourceTree = "<group>"; };
+		C3B4B1688DD5C503421B1386 /* Pods-ToglTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToglTest.release.xcconfig"; path = "Target Support Files/Pods-ToglTest/Pods-ToglTest.release.xcconfig"; sourceTree = "<group>"; };
 		C579B77F25496AE700471E7E /* ToglTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToglTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C579B78225496AE700471E7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C579B78425496AE700471E7E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +33,11 @@
 		C579B78B25496AED00471E7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C579B78E25496AED00471E7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C579B79025496AED00471E7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C579B7972549741400471E7E /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		C579B7CA2549CD6B00471E7E /* PicService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicService.swift; sourceTree = "<group>"; };
+		C579B7CD2549CDFA00471E7E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C579B7D02549CE6000471E7E /* PicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicModel.swift; sourceTree = "<group>"; };
+		C579B7E32549EB4100471E7E /* PicsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicsCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				071B06A3872A2F37EE99F287 /* Pods_ToglTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05EE7ED0973599AF5D2B25ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7601E0FFA521C8D91CCA4770 /* Pods-ToglTest.debug.xcconfig */,
+				C3B4B1688DD5C503421B1386 /* Pods-ToglTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		833685E91E6A635DFF228E3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A71842193BDEFCC1D9767B4 /* Pods_ToglTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C579B77625496AE700471E7E = {
 			isa = PBXGroup;
 			children = (
 				C579B78125496AE700471E7E /* ToglTest */,
 				C579B78025496AE700471E7E /* Products */,
+				05EE7ED0973599AF5D2B25ED /* Pods */,
+				833685E91E6A635DFF228E3F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,6 +93,11 @@
 				C579B78225496AE700471E7E /* AppDelegate.swift */,
 				C579B78425496AE700471E7E /* SceneDelegate.swift */,
 				C579B78625496AE700471E7E /* ViewController.swift */,
+				C579B7972549741400471E7E /* DetailVC.swift */,
+				C579B7D02549CE6000471E7E /* PicModel.swift */,
+				C579B7CA2549CD6B00471E7E /* PicService.swift */,
+				C579B7E32549EB4100471E7E /* PicsCell.swift */,
+				C579B7CD2549CDFA00471E7E /* Extensions.swift */,
 				C579B78825496AE700471E7E /* Main.storyboard */,
 				C579B78B25496AED00471E7E /* Assets.xcassets */,
 				C579B78D25496AED00471E7E /* LaunchScreen.storyboard */,
@@ -74,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C579B79325496AED00471E7E /* Build configuration list for PBXNativeTarget "ToglTest" */;
 			buildPhases = (
+				85CA85E6CF474ADE1B3E0055 /* [CP] Check Pods Manifest.lock */,
 				C579B77B25496AE700471E7E /* Sources */,
 				C579B77C25496AE700471E7E /* Frameworks */,
 				C579B77D25496AE700471E7E /* Resources */,
+				7BE9D170CFCE7F477B52089A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,13 +173,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7BE9D170CFCE7F477B52089A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToglTest/Pods-ToglTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToglTest/Pods-ToglTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ToglTest/Pods-ToglTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85CA85E6CF474ADE1B3E0055 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ToglTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C579B77B25496AE700471E7E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C579B7E42549EB4100471E7E /* PicsCell.swift in Sources */,
 				C579B78725496AE700471E7E /* ViewController.swift in Sources */,
+				C579B7CE2549CDFA00471E7E /* Extensions.swift in Sources */,
+				C579B7982549741400471E7E /* DetailVC.swift in Sources */,
+				C579B7D12549CE6000471E7E /* PicModel.swift in Sources */,
 				C579B78325496AE700471E7E /* AppDelegate.swift in Sources */,
+				C579B7CB2549CD6B00471E7E /* PicService.swift in Sources */,
 				C579B78525496AE700471E7E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,12 +371,14 @@
 		};
 		C579B79425496AED00471E7E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7601E0FFA521C8D91CCA4770 /* Pods-ToglTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B94C7U72JS;
 				INFOPLIST_FILE = ToglTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,12 +392,14 @@
 		};
 		C579B79525496AED00471E7E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3B4B1688DD5C503421B1386 /* Pods-ToglTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B94C7U72JS;
 				INFOPLIST_FILE = ToglTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
